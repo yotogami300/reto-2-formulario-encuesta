@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles/bootstrap.css" type="text/css">
+	<link rel="stylesheet" href="styles/main.css" type="text/css">
+
+</head>
+<body>
+	<div id="main-div">
+		<h1 class="title" id="title">Encuesta de Academia Geek</h1>
+		<p id="description">¡Queremos conocer un par de cosas sobre ti!</p>
+		<br>
+		<div class="container rounded" id="formulario">
+			<form id="survey-form">
+
+				<div class="form-group">
+					<label id="name-label" for="name">Nombre</label>
+      				<input type="text" name="name" id="name" class="form-control" placeholder="Ingresa tu Nombre" required="">
+				</div>
+
+				<div class="form-group">
+					<label id="email-label" for="email">Correo Electronico</label>
+      				<input type="email" name="email" id="email" class="form-control" placeholder="Ingresa tu Email, Ejemplo: prueba@academiageek.com" required="">
+				</div>
+
+				<div class="form-group">
+					<label id="number-label" for="number">Edad</label>
+      				<input type="number" name="age" id="number" min="18" max="45" class="form-control" placeholder="Indicanos tu Edad" required="">
+				</div>
+
+				<div class="form-group">
+					<p>¿Qué te gustaria llegar a ser?</p>
+      				<select id="dropdown" name="cargo" class="form-control" required="">
+        				<option disabled="" selected="" value="">Elige una Opción...</option>
+        				<option value="fullstack">Programador Fullstack</option>
+        				<option value="frontend">Programador Frontend</option>
+        				<option value="backend">Programador Backend</option>
+        				<option value="movildev">Movil Apps Dev</option>
+      				</select>
+				</div>
+
+				<div class="form-group">
+					<p>¿Qué tan preparado te sientes para iniciar el reto?</p>
+     				 <label>
+       				 	<input name="preparacion" value="muy-preparado" type="radio" class="input-radio" checked=""> Muy preparado</label>
+       				 	<br>
+     				 <label>
+        				<input name="preparacion" value="no-esta-seguro" type="radio" class="input-radio"> No estoy seguro</label>
+        				<br>
+      				<label>
+      					<input name="preparacion" value="nada-preparado" type="radio" class="input-radio"> No me siento preparado</label>
+				</div>
+
+				<div class="form-group">
+					 <p>¿Posees conocimientos en alguno de estos lenguajes?<span class="clue">(Seleccionalos)</span></p>
+
+     				 <label>
+     				 	<input name="conocimiento-lenguaje" value="html" type="checkbox" class="input-checkbox">HTML</label>
+
+     				 <label>
+        				<input name="conocimiento-lenguaje" value="css" type="checkbox" class="input-checkbox">CSS</label>
+
+      				<label>
+      					<input name="conocimiento-lenguaje" value="JavaScript" type="checkbox" class="input-checkbox">JavaScript</label>
+
+     				<label>
+     					<input name="conocimiento-lenguaje" value="php" type="checkbox" class="input-checkbox">PHP</label>
+
+      				<label>
+      					<input name="conocimiento-lenguaje" value="java" type="checkbox" class="input-checkbox">Java</label>
+					
+				</div>
+
+				<div class="form-group">
+					<p>¿Tienes algún comentario que quieras compartir con nosotros?</p>
+      				<textarea id="comentarios" class="form-control" name="comentarios" placeholder="Ingresa tu comentario..."></textarea>
+					
+				</div>
+
+				<div class="form-group">
+					<div class="d-grid gap-2">
+  						<button class="btn btn-primary" type="submit" id="submit">Enviar</button>
+					</div>
+				</div>
+
+
+
+			</form>
+			
+		</div>
+
+
+
+
+
+
+
+	</div>
+
+	
+	
+</body>
+</html>

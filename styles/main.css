@@ -1,0 +1,48 @@
+body {
+	background-image: url('../images/fondo.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 250px 0px;
+
+}	
+
+#main-div{
+	padding-top: 50px;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.7+0,0.7+99 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 99%, rgba(0,0,0,0.7) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 99%,rgba(0,0,0,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#b3000000',GradientType=0 ); /* IE6-9 */
+
+}
+h1{
+	text-align: center;
+	color: #efefef;
+	font-weight: bold;
+}
+#description{
+	text-align: center;
+	color: #efefef;
+	font-style: italic; 
+}
+#formulario{
+	width: 55%;
+	background-color: white;
+	padding: 5px 30px 10px 30px;
+}
+label{
+	margin-bottom: 5px;
+}
+.form-group{
+	margin: 15px 0;
+}
+.input-checkbox{
+	margin-right: 3px;
+	margin-left: 8px;
+}
